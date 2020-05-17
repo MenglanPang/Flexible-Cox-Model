@@ -5,7 +5,10 @@ R code for estimating the baseline hazard from the extended flexible Cox model.
 ## Description
 The flexible extension of the Cox model is built based on the flexible Cox model developped by Wynant W and Wang Y.
 Reference:
-"Wynant W, Abrahamowicz M. Impact of the model building strategy on the inference about time-dependent and # non-linear covariate effects in survival analysis. *Stat Med.* 2014 Aug;33(19):3318-37."
+"Wynant W, Abrahamowicz M. Impact of the model building strategy on the inference about time-dependent and non-linear covariate effects in survival analysis. *SStatistics in medicin* 2014 Aug;33(19):3318-37."
+
+
+"Willy Wynant and Michal Abrahamowicz. Flexible estimation of survival curves conditional on non-linear and time-dependent predictor effects. *Statistics in medicine* 2016 ; 35(4):553–565."
 
 
 The code has been written using R with the following version information:<br/>
