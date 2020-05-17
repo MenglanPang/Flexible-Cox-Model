@@ -15,7 +15,7 @@ cox_fit<-last_prog(data=sepsis, Type=c("time.obs","event"),
                          m=1, p=2, knots=-999)
 
 FlexCoxbh<-CoxFlex_BH(fit=cox_fit,Data=sepsis,nknot.bh=2,degree.bh=3)
-save(FlexCoxbh,file="FlexCoxbh.rda")
+save(FlexCoxbh,file="sepsis_flexcox.rda")
 
 cov.val<-rep(NA,7)
 for (i in 1:5){
