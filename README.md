@@ -20,7 +20,7 @@ The code has been written using R with the following version information:<br/>
   - survival version 3.1-12
   - splines version v3.6.2
   
-#### Code to implement the flexible Cox model:
+#### Code to implement the extended flexible Cox model:
 ##### `FlexCox.R`
 This program is orignally developped by Wynant and Wang, with small modification by Pang. 
 It includes functions to provide estimates of:
