@@ -1,4 +1,4 @@
-# Extension of Flexible Cox Model
+# Extension of the Flexible Cox Model
 R code for estimating the baseline hazard from the extended flexible Cox model.
 
 ## Content
@@ -18,20 +18,24 @@ The code has been written using R with the following version information:<br/>
 Code to implement the flexible Cox model:
 #### `FlexCox.R`
 This program is orignally developped by Wynant and Wang, with small modification by Pang. 
-It includes functions to provide estimates of
+It includes functions to provide estimates of:
 - TD effects
 - NL effects
+
+
 The program is called by the program `Example.R`. 
 
 Code to estimate the baseline hazard function from the extended flexible Cox model:
 #### `FlexCox_BH.R`
-It includes functions to provide estimates of
+It includes functions to provide estimates of:
 - Hazard function conditional on an arbitrary covariate pattern
 - Survival curve conditional on an arbitrary covariate pattern
+
+
 The program is called by the program `Example.R`. 
 
 Code to run the flexible Cox model:
 #### `Example.R`
-The program read the data in `sepsis.csv`, and generates the results save in  `sepsis_flexcox.rda`
+The program read the data in `sepsis.csv`, and generates the results save in `sepsis_flexcox.rda`
  
 For questions or comments about the code please contact Menglan Pang (menglan.pang at mail.mcgill.ca).
