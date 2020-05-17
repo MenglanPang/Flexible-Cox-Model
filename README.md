@@ -26,6 +26,7 @@ This program is orignally developped by Wynant and Wang, with small modification
 It includes functions to provide estimates of:
 - TD effects
 - NL effects
+- Hazard ratio when TD is not present
 
 
 The program is called by the program `Example.R`. 
@@ -33,8 +34,8 @@ The program is called by the program `Example.R`.
 #### Code to estimate the baseline hazard function from the extended flexible Cox model:
 ##### `FlexCox_BH.R`
 It includes functions to provide estimates of:
-- Hazard function conditional on an arbitrary covariate pattern
-- Survival curve conditional on an arbitrary covariate pattern
+- Hazard function conditional on an arbitrary covariate pattern with their relevant TD and NL effects
+- Survival curve conditional on an arbitrary covariate pattern with their relevant TD and NL effects
 
 
 The program is called by the program `Example.R`. 
