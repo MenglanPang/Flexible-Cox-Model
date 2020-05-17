@@ -1,7 +1,7 @@
 ##Example for Flexible Cox model using septic shock dataset
 library(survival)
 library(splines)
-sepsis<-read.csv("episs_858.csv")
+sepsis<-read.csv("sepsis.csv")
 source("CoxFlex.R")
 source("CoxFlex_BH.R")
 Vars<-c("immunodep","knauss","urinaire","cirrhose","infection","age","sofa")
